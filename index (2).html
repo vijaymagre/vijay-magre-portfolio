@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Vijay Magre — DevOps Engineer specializing in AWS, Kubernetes, Terraform and CI/CD automation.">
+<title>Vijay Magre | DevOps Engineer</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2e;--text:#eef3ff;--muted:#aab6d3;--accent:#69e0c0;--line:#26324d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0%,#1a3150 0,transparent 32%),var(--bg);color:var(--text);font:16px/1.65 Inter,Segoe UI,Arial,sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1080px,92%);margin:auto}
+header{padding:24px 0;border-bottom:1px solid var(--line)}nav{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.brand{font-weight:800;letter-spacing:.4px}.navlinks{display:flex;gap:22px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+.hero{padding:88px 0 70px;display:grid;grid-template-columns:1.5fr .8fr;gap:42px;align-items:center}.eyebrow{color:var(--accent);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:12px}
+h1{font-size:clamp(42px,7vw,70px);line-height:1.04;margin:16px 0}h2{font-size:30px;margin:0 0 22px}.lead{font-size:19px;color:var(--muted);max-width:690px}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:11px 18px;border-radius:9px;background:var(--accent);color:#07131a;font-weight:800}.btn.secondary{background:transparent;color:var(--text);border:1px solid var(--line)}
+.profile{border:1px solid var(--line);background:linear-gradient(145deg,#17243d,#10182a);padding:26px;border-radius:18px}.profile .symbol{font-size:48px;color:var(--accent)}.profile strong{display:block;font-size:20px}.profile p{color:var(--muted);margin-bottom:0}
+section{padding:54px 0;border-top:1px solid var(--line)}.sub{color:var(--muted);max-width:780px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:21px}.card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0}.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}.tag{border:1px solid var(--line);border-radius:999px;padding:6px 11px;color:#cbd7f1;font-size:13px}
+.project{min-height:190px}.project .type{color:var(--accent);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px}
+ul.clean{padding-left:20px;color:var(--muted)}li{margin:8px 0}.contact{display:flex;gap:14px;flex-wrap:wrap;margin-top:20px}.contact a{border:1px solid var(--line);border-radius:9px;padding:10px 14px}
+footer{padding:28px 0;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:60px 0}.grid{grid-template-columns:1fr}h1{font-size:46px}.navlinks{gap:12px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav><div class="brand">VM<span style="color:var(--accent)">.</span> Vijay Magre</div><div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></nav></div></header>
+<main class="wrap">
+<section class="hero" style="border:0">
+<div><div class="eyebrow">DevOps Engineer · Cloud · Automation</div><h1>Building reliable<br><span style="color:var(--accent)">cloud platforms.</span></h1>
+<p class="lead">I’m Vijay Magre, a DevOps Engineer with 5+ years of overall experience, including 4+ years focused on production DevOps. I work across cloud infrastructure, Kubernetes, Infrastructure as Code, CI/CD automation and production operations.</p>
+<div class="actions"><a class="btn" href="#projects">Explore my work</a><a class="btn secondary" href="mailto:vijaymagre4813@gmail.com">Contact me</a></div></div>
+<div class="profile"><div class="symbol">⌘</div><strong>Cloud & DevOps</strong><p>AWS-first infrastructure with hands-on exposure to Azure and Google Cloud. Focused on automation, reliability, security and operational excellence.</p></div>
+</section>
+<section id="about"><div class="eyebrow">A little about me</div><h2>About</h2><p class="sub">I enjoy turning manual infrastructure and deployment processes into repeatable, automated workflows. My work spans containerized applications, cloud environments, CI/CD pipelines, monitoring and troubleshooting production systems. I value clear documentation, collaboration and continuous improvement.</p></section>
+<section id="skills"><div class="eyebrow">My toolkit</div><h2>Technical skills</h2><div class="grid">
+<div class="card"><h3>Cloud platforms</h3><p>AWS, Microsoft Azure, Google Cloud Platform</p></div>
+<div class="card"><h3>Containers & orchestration</h3><p>Docker, Kubernetes, EKS, AKS, GKE, Helm, ECS</p></div>
+<div class="card"><h3>Infrastructure as Code</h3><p>Terraform, reusable modules, remote state, Ansible</p></div>
+<div class="card"><h3>CI/CD & GitOps</h3><p>Jenkins, GitHub Actions, GitLab CI, Argo CD</p></div>
+<div class="card"><h3>Monitoring & security</h3><p>Prometheus, Grafana, Datadog, CloudWatch, IAM, Trivy, SonarQube</p></div>
+<div class="card"><h3>Systems & scripting</h3><p>Linux, Bash, Python, YAML, Git</p></div>
+</div></section>
+<section id="projects"><div class="eyebrow">Selected hands-on work</div><h2>Projects</h2><div class="grid">
+<div class="card project"><div class="type">CI/CD · Docker · AWS</div><h3>SkillPulse deployment pipeline</h3><p>Built CI workflows with GitHub Actions to build and publish container images, then automated deployment to an EC2 environment using Docker Compose and SSH-based delivery.</p><div class="tags"><span class="tag">GitHub Actions</span><span class="tag">Docker</span><span class="tag">EC2</span></div></div>
+<div class="card project"><div class="type">Infrastructure as Code</div><h3>Reusable cloud infrastructure</h3><p>Practiced modular Terraform patterns for provisioning cloud resources, managing remote state and keeping infrastructure changes reviewable and repeatable.</p><div class="tags"><span class="tag">Terraform</span><span class="tag">AWS</span><span class="tag">IaC</span></div></div>
+<div class="card project"><div class="type">Containers · Kubernetes</div><h3>Containerized application platform</h3><p>Containerized a multi-tier application with frontend, backend and database services; explored Kubernetes deployment and operational health checks.</p><div class="tags"><span class="tag">Kubernetes</span><span class="tag">Docker Compose</span><span class="tag">Nginx</span></div></div>
+</div><p class="sub" style="margin-top:18px;font-size:13px">Project descriptions summarize hands-on learning and implementation work; add repository links when you are ready to share the source code.</p></section>
+<section><div class="eyebrow">How I work</div><h2>Core responsibilities</h2><div class="grid">
+<div class="card"><h3>Automate</h3><ul class="clean"><li>Build and maintain CI/CD pipelines</li><li>Provision infrastructure with Terraform</li><li>Automate routine tasks with Bash and Python</li></ul></div>
+<div class="card"><h3>Operate</h3><ul class="clean"><li>Support deployments and production environments</li><li>Monitor system health and investigate incidents</li><li>Improve reliability and recovery practices</li></ul></div>
+<div class="card"><h3>Collaborate</h3><ul class="clean"><li>Work with developers on release workflows</li><li>Use Git-based reviews and documentation</li><li>Promote secure and consistent practices</li></ul></div>
+</div></section>
+<section id="contact"><div class="eyebrow">Let's connect</div><h2>Contact</h2><p class="sub">Interested in DevOps, Cloud or SRE opportunities? Feel free to reach out.</p><div class="contact"><a href="mailto:vijaymagre4813@gmail.com">vijaymagre4813@gmail.com</a><a href="tel:+919370178730">+91 93701 78730</a><a href="https://www.linkedin.com/in/vijay-magre-b5b81b16a/" target="_blank" rel="noopener">LinkedIn profile ↗</a></div></section>
+</main>
+<footer><div class="wrap">© <span id="year">2026</span> Vijay Magre · DevOps Engineer</div></footer>
+</body></html>
